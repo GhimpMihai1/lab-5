@@ -5,8 +5,8 @@
 	<script>
 	$(loginform).ready(function(){
     $("#login_user").click(function(){
-        var username = $("#txt_uname").val().trim();
-        var password = $("#txt_pwd").val().trim();
+        var username = $("#username").val().trim();
+        var password = $("#password").val().trim();
 
         if( username != "" && password != "" ){
             $.ajax({
