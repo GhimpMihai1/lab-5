@@ -37,14 +37,13 @@
   </div>
 	 
   <form id="loginform"  method="post" action="login.php">
-  	<?php include('errors.php'); ?>
   	<div class="input-group">
   		<label>Username</label>
-  		<input type="text" name="username" id="txt_uname" >
+  		<input type="text" name="username">
   	</div>
   	<div class="input-group">
   		<label>Password</label>
-  		<input type="password" name="password" id="txt_pwd">
+  		<input type="password" name="password">
   	</div>
   	<div class="input-group">
   		<button type="submit" class="btn" name="login_user">Login</button>
