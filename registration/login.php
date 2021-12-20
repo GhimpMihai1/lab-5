@@ -3,7 +3,7 @@
 <html>
 <head>
 	<script>
-	$(document).ready(function(){
+	$(loginform).ready(function(){
     $("#login_user").click(function(){
         var username = $("#txt_uname").val().trim();
         var password = $("#txt_pwd").val().trim();
