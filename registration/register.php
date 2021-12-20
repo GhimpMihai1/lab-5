@@ -16,7 +16,7 @@
                 type:'post',
                 data:{email:email,password:password, username:username},
                 success:function(response){
-                    var msg = "Cont creat cu succes";
+                    var msg = "";
                     if(response == 1){
                         window.location = "../registration/index.php";
                     }else{
